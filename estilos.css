@@ -63,7 +63,7 @@ body{
     width: 90%;
     height: auto;
     background: #5D737E;
-    margin: 5% auto;
+    margin: 3% auto;
     padding: 1%;
     border-radius: 20px;
 }
@@ -89,4 +89,77 @@ body{
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
     font-size: 20px;
+}
+
+.info spam {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 1% ;
+    background: #c99951;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin: 1% auto;
+    border-radius: 5px;
+}
+
+.infob {
+    width: 90%;
+    height: auto;
+    background: #87BBA2;
+    margin: 3% auto;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+.infob .tituloSeccion{
+    color:#F0F7EE;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #F0F7EE dashed;
+}
+
+.infob .tituloInfo{
+    color: #F0F7EE;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.infob .infoInfo{
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.formulario {
+    width: 40%;
+    background: #5D737E;
+    padding: 5%;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.controles {
+    width: 100%;
+    background: #F0F7EE;
+    margin: 3% auto;
+    border-radius: 8px;
+    padding: 2%;
+    border: 1px solid #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.formulario .boton {
+    width: 100%;
+    background: #c99951;
+    padding: 2%;
+    border-radius: 8px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
 }
