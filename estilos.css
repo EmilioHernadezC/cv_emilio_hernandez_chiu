@@ -135,7 +135,25 @@ body{
     font-size: 20px;
 }
 
-.formulario {
+.infoc {
+    width: 90%;
+    height: auto;
+    background: #000000;
+    margin: 3% auto;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+.infoc .tituloSeccion{
+    color:#F0F7EE;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #F0F7EE dashed;
+}
+
+.infoc .formulario {
     width: 40%;
     background: #5D737E;
     padding: 5%;
@@ -143,8 +161,18 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+.infoc .formulario textarea{
+    width: 500px;
+    height: 110px;    
+    border-radius: 8px;
+    padding: 2%;
+    margin: 3% auto;
+    border: 1px solid #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
 
-.controles {
+.infoc .formulario .controles {
     width: 100%;
     background: #F0F7EE;
     margin: 3% auto;
@@ -155,7 +183,7 @@ body{
     font-size: 15px;
 }
 
-.formulario .boton {
+.infoc .formulario .boton {
     width: 100%;
     background: #c99951;
     padding: 2%;
@@ -164,3 +192,4 @@ body{
     font-weight: bolder;
     font-size: 15px;
 }
+
