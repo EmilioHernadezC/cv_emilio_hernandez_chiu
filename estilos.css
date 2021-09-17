@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #000000;    
+}
+
+.name{
+    width: 100%;
+    height: 300px;
+    background: #c99951;
+
+}
+
+.name .img {
+    position: absolute;
+    top: 8%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.name .img img {
+    width: 180px;
+    height: 320;
+}
+
+.name .content {
+    width: 50%;
+    height: 50%;
+    position: absolute; 
+    left: 25%;
+}
+
+.name .content .pNombre {
+    color: #F0F7EE;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.name .content .pPerfil {
+    color: #F0F7EE;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 10;
+    
+}
+
+.name .content .pObjetivo {
+    color: #F0F7EE;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 10;
+    
+}
+
+
+
+.info {
+    width: 90%;
+    height: auto;
+    background: #5D737E;
+    margin: 5% auto;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+.info .tituloSeccion{
+    color:#F0F7EE;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #F0F7EE dashed;
+}
+
+.info .tituloInfo{
+    color: #F0F7EE;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.info .infoInfo{
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
